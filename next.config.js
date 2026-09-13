@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  experimental: {
-    serverComponentsExternalPackages: ['@supabase/ssr'],
-  },
+const nextConfig = {
+  reactStrictMode: true,
 }
+
+module.exports = nextConfig
